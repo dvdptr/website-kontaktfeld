@@ -4,6 +4,7 @@
     <Hero />
     <Leistungen />
     <AboutGestaltberatung />
+    <Fragen />
     <AppFooter />
   </div>
 </template>
@@ -13,6 +14,7 @@ import AppHeader from "~/components/AppHeader";
 import Hero from "~/components/Hero";
 import Leistungen from "~/components/Leistungen";
 import AboutGestaltberatung from "~/components/AboutGestaltberatung";
+import Fragen from "~/components/Fragen";
 import AppFooter from "~/components/AppFooter";
 
 export default {
@@ -21,6 +23,7 @@ export default {
     Hero,
     Leistungen,
     AboutGestaltberatung,
+    Fragen,
     AppFooter
   }
 };

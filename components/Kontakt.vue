@@ -1,7 +1,7 @@
 <template>
-  <div class="border-b border-gray-300 py-4">
+  <div class="border-b border-gray-300 py-4 w-5/6 mx-auto pb-16">
     <Headline :title="title" :subtitle="subtitle" />
-    <div class="flex items-center">
+    <div class="flex items-center justify-around">
       <section class="w-1/3">
         <div class="bg-yellow-200 h-64 w-56 mx-auto"></div>
       </section>

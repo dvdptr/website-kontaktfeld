@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b border-gray-300 pb-12 pt-10 text-gray-800">
+  <div class="py-8 text-gray-800">
     <div class="flex w-5/6 justify-between mx-auto">
       <div>
         <nuxt-link to="/">

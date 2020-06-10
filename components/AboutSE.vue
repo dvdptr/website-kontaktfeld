@@ -1,9 +1,9 @@
 <template>
-  <div class="border-b border-gray-300 py-4">
+  <div class="border-b border-gray-300 py-4 pb-12">
     <Headline :title="title" :subtitle="subtitle" />
-    <div class="flex items-center">
+    <div class="flex items-center w-5/6 mx-auto justify-around">
       <section class="w-1/3">
-        <div class="bg-yellow-200 h-64 w-56 mx-auto"></div>
+        <div class="bg-yellow-200 h-64 w-5/6 mx-auto"></div>
       </section>
       <section class="w-2s/3">
         <p>VITA</p>
