@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <AppHeader />
-    <AboutSE />
+    <Kontakt />
     <AppFooter />
   </div>
 </template>
 
 <script>
 import AppHeader from "~/components/AppHeader";
-import AboutSE from "~/components/AboutSE";
+import Kontakt from "~/components/Kontakt";
 
 import AppFooter from "~/components/AppFooter";
 
 export default {
   components: {
     AppHeader,
-    AboutSE,
+    Kontakt,
     AppFooter
   }
 };

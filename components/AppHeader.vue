@@ -11,7 +11,7 @@
       </nav>
 
       <nav class="ml-6">
-        <nuxt-link to="/about">Kontakt</nuxt-link>
+        <nuxt-link to="/kontakt">Kontakt</nuxt-link>
       </nav>
       <button
         class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-6"
