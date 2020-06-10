@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b border-gray-300 pb-12">
+  <div class="w-5/6 mx-auto border-b border-gray-300 pb-16">
     <!-- <Headline :title="title" :subtitle="subtitle" /> -->
     <section>
       <p class="w-3/4 mx-auto text-xl textHighlight leading-snug pt-16">{{about}}</p>

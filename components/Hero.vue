@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b border-gray-300 pb-12 pt-16">
+  <div class="w-5/6 mx-auto border-b border-gray-300 pb-12 pt-16">
     <div class>
       <div>
         <p class="font-bold text-5xl leading-tight pb-8 w-2/3 text-center mx-auto">

@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b border-gray-300 pb-12">
+  <div class="w-5/6 mx-auto border-b border-gray-300 pb-12">
     <Headline :title="title" :subtitle="subtitle" />
     <div class="flex flex-wrap justify-around text-center">
       <div
