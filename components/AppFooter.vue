@@ -1,9 +1,11 @@
 <template>
-  <div class="py-12 text-sm text-gray-700">
+  <div class="py-12 text-sm text-gray-800 bg-gray-300">
     <div class="flex justify-evenly">
-      <div>
-        <Logo class="h-8" />
-      </div>
+      <!-- <div class="leading-tight font-bold">
+        <p>Simone Ebner</p>
+        <p>Raum für Gestaltberatung</p>
+      </div>-->
+      <Logo class="h-8" />
       <div class>
         <p class="underline">Anschrift</p>
         <p>Paulinstr. 75</p>
@@ -22,7 +24,7 @@
 </template>
 
 <script>
-import Logo from "@/components/Logo";
+import Logo from "@/components/Logo.vue";
 export default {
   components: {
     Logo

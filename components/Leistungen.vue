@@ -2,7 +2,11 @@
   <div class="border-b border-gray-300 pb-12">
     <Headline :title="title" :subtitle="subtitle" />
     <div class="flex flex-wrap justify-around text-center">
-      <div v-for="leistung in leistungenOverview" v-bind:key="leistung" class="w-1/2 pb-16 px-10">
+      <div
+        v-for="leistung in leistungenOverview"
+        v-bind:key="leistung"
+        class="w-1/2 mb-16 p-10 shadow-none hover:shadow-md rounded-md"
+      >
         <section class="font-bold">{{leistung.leistung}}</section>
         <section class="text-gray-800">{{leistung.text}}</section>
       </div>
