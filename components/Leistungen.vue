@@ -2,7 +2,7 @@
   <div class="border-b border-gray-300 pb-12">
     <Headline :title="title" :subtitle="subtitle" />
     <div class="flex flex-wrap justify-around text-center">
-      <div v-for="leistung in leistungenOverview" v-bind:key="leistung" class="w-1/3 pb-10">
+      <div v-for="leistung in leistungenOverview" v-bind:key="leistung" class="w-1/2 pb-16">
         <section class="font-bold">{{leistung.leistung}}</section>
         <section class="text-gray-800">{{leistung.text}}</section>
       </div>
@@ -37,10 +37,6 @@ export default {
         {
           leistung: "Prozessbegleitung im Jahreskreis",
           text: "text zu 4"
-        },
-        {
-          leistung: "Kreative Methoden",
-          text: "text zu 5"
         }
       ]
     };
@@ -49,7 +45,4 @@ export default {
 </script>
 
 <style>
-.textHighlight {
-  font-family: "IBM Plex Mono", monospace;
-}
 </style>
