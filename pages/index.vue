@@ -1,15 +1,27 @@
 <template>
   <div class="container">
     <AppHeader />
+    <Hero />
+    <Leistungen />
+    <AboutGestaltberatung />
+    <AppFooter />
   </div>
 </template>
 
 <script>
 import AppHeader from "~/components/AppHeader";
+import Hero from "~/components/Hero";
+import Leistungen from "~/components/Leistungen";
+import AboutGestaltberatung from "~/components/AboutGestaltberatung";
+import AppFooter from "~/components/AppFooter";
 
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    Hero,
+    Leistungen,
+    AboutGestaltberatung,
+    AppFooter
   }
 };
 </script>

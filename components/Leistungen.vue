@@ -1,16 +1,11 @@
 <template>
   <div class="border-b border-gray-300 pb-12">
-    <Logo class="h-10" />
+    <p>Leistungen</p>
   </div>
 </template>
 
 <script>
-import Logo from "@/components/Logo";
-export default {
-  components: {
-    Logo
-  }
-};
+export default {};
 </script>
 
 <style>
