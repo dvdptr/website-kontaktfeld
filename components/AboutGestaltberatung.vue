@@ -1,11 +1,20 @@
 <template>
   <div class="border-b border-gray-300 pb-12">
-    <p>About Gestaltberatung</p>
+    <Headline :title="title" :subtitle="subtitle" />
   </div>
 </template>
 
 <script>
-export default {};
+import Headline from "~/components/elements/Headline";
+export default {
+  components: { Headline },
+  data() {
+    return {
+      title: "About Gestaltberatung",
+      subtitle: "Subtext"
+    };
+  }
+};
 </script>
 
 <style>
