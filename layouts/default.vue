@@ -22,4 +22,8 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+.textHighlight {
+  font-family: "IBM Plex Mono", monospace;
+}
 </style>

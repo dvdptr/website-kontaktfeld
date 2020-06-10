@@ -49,4 +49,7 @@ export default {
 </script>
 
 <style>
+.textHighlight {
+  font-family: "IBM Plex Mono", monospace;
+}
 </style>

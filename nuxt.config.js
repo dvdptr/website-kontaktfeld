@@ -20,6 +20,11 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap"
       }
     ]
   },

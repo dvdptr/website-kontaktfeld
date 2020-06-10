@@ -1,8 +1,8 @@
 <template>
   <div class="border-b border-gray-300 pb-12">
-    <Headline :title="title" :subtitle="subtitle" />
+    <!-- <Headline :title="title" :subtitle="subtitle" /> -->
     <section>
-      <p class="w-2/3 mx-auto text-2xl">{{about}}</p>
+      <p class="w-3/4 mx-auto text-xl textHighlight leading-snug pt-16">{{about}}</p>
     </section>
   </div>
 </template>
