@@ -2,7 +2,7 @@
   <div class="border-b border-gray-300 pb-12">
     <Headline :title="title" :subtitle="subtitle" />
     <div class="flex flex-wrap justify-around text-center">
-      <div v-for="leistung in leistungenOverview" v-bind:key="leistung" class="w-1/2 pb-16">
+      <div v-for="leistung in leistungenOverview" v-bind:key="leistung" class="w-1/2 pb-16 px-10">
         <section class="font-bold">{{leistung.leistung}}</section>
         <section class="text-gray-800">{{leistung.text}}</section>
       </div>
@@ -24,19 +24,23 @@ export default {
       leistungenOverview: [
         {
           leistung: "Gestaltberatung",
-          text: "text zu eins"
+          text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsam odio? Odit illum omnis cupiditate voluptas dolor provident fuga vero."
         },
         {
           leistung: "Kreative Methoden",
-          text: "text zu zwei"
+          text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsam odio? Odit illum omnis cupiditate voluptas dolor provident fuga vero."
         },
         {
           leistung: "Körperorientierte Methoden (Tanzpädagogik)",
-          text: "text zu 3"
+          text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsam odio? Odit illum omnis cupiditate voluptas dolor provident fuga vero."
         },
         {
           leistung: "Prozessbegleitung im Jahreskreis",
-          text: "text zu 4"
+          text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsam odio? Odit illum omnis cupiditate voluptas dolor provident fuga vero."
         }
       ]
     };
