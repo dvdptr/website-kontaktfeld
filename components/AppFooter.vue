@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b border-gray-300 py-12 text-sm text-gray-700">
+  <div class="py-12 text-sm text-gray-700">
     <div class="flex justify-evenly">
       <div>
         <Logo class="h-8" />
