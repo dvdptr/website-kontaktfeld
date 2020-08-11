@@ -10,13 +10,18 @@
         <nav class="ml-6">
           <nuxt-link to="/about">About</nuxt-link>
         </nav>
+        <nav class="ml-6">
+          <nuxt-link to="/faq">FAQ</nuxt-link>
+        </nav>
 
         <nav class="ml-6">
           <nuxt-link to="/kontakt">Kontakt</nuxt-link>
         </nav>
         <button
           class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-6"
-        >Anfrage stellen</button>
+        >
+          Anfrage stellen
+        </button>
       </div>
     </div>
   </div>
@@ -31,5 +36,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
